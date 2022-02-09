@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fbe8a68.css",
+    "main.js": "/static/js/main.a00ad40f.js",
+    "static/media/profilepic-img.png": "/static/media/profilepic-img.d5b6a9f7b81784804317.png",
+    "static/media/MonoLisa-Bold.otf": "/static/media/MonoLisa-Bold.2560e7eddc375ffbe179.otf",
+    "static/media/MonoLisa-Regular.otf": "/static/media/MonoLisa-Regular.4ec1cbcb13c98e690a55.otf",
+    "static/media/sample-proj.jpg": "/static/media/sample-proj.2df01fe28d198d6e7696.jpg",
+    "static/media/sample-proj-2.jpg": "/static/media/sample-proj-2.ada5a05f402a48a13e70.jpg",
+    "static/media/stickerpack-img.png": "/static/media/stickerpack-img.3d8567d350560d14a19d.png",
+    "index.html": "/index.html",
+    "main.1fbe8a68.css.map": "/static/css/main.1fbe8a68.css.map",
+    "main.a00ad40f.js.map": "/static/js/main.a00ad40f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fbe8a68.css",
+    "static/js/main.a00ad40f.js"
+  ]
+}
