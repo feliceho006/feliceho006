@@ -1,38 +1,32 @@
+@font-face {
+    font-family: 'MonoLisa';
+    font-weight: normal;
+    src: local('MonoLisa'), url(./Assets/Font/MonoLisa-Regular.otf) format('opentype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+@font-face {
+font-family: 'MonoLisa';
+font-weight: bold;
+src: local('MonoLisa'), url(./Assets/Font/MonoLisa-Bold.otf) format('opentype');
+/* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .App {
-  text-align: center;
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+font-weight: normal;
+font-family: MonoLisa;
+font-size: large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+padding: 0;
+margin: 0;
+background-color: var(--bgblue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
